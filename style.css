@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+background-color: rgb(34, 33, 33);
+padding: 20px;
+color: antiquewhite;
+list-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo-photo{
+    width: 120px;
+    
+}
+.menus{ 
+    display: flex;
+    padding: 10px;
+    
+}
+.list{
+    
+    margin-right: 30px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+.list:hover{
+     color: aliceblue;
+     
+    
+}
+
+
