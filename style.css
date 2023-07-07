@@ -1,142 +1,159 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.menu-container{
-background-color: rgb(15, 18, 41);
-padding: 20px;
-color: antiquewhite;
-list-style: none;
-display: flex;
-justify-content: space-between;
-align-items: center;
+
+.menu-container {
+    background-color: rgb(15, 18, 41);
+    padding: 20px;
+    color: antiquewhite;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.logo-photo{
+
+.logo-photo {
     width: 150px;
     transition: 2s;
 }
-.menus{ 
+
+.menus {
     display: flex;
     padding: 10px;
-    
+
 }
-.list{
-    
+
+.list {
+
     margin-right: 30px;
     padding: 10px;
     cursor: pointer;
     font-size: 18px;
 
 }
-.list:hover{
-     color: rgb(0, 255, 234);
-       
+
+.list:hover {
+    color: rgb(0, 255, 234);
+
 }
-.logo-photo:hover{
+
+.logo-photo:hover {
     width: 200px;
 }
 
-.banner-img{
+.banner-img {
     width: 500px;
     transition: 3s;
 }
-.banner-img:hover{
+
+.banner-img:hover {
     width: 600px;
-    
+
 }
 
-.banner-container{
+.banner-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 90vh;
     color: aliceblue;
-    background-image: url(./images/background.png), 
-    linear-gradient(90deg, rgb(31, 67, 78), rgb(80, 60, 117));
-     ;
-     background-position: center;
-     background-size: cover;
-     background-repeat: no-repeat;
-    
+    background-image: url(./images/background.png),
+        linear-gradient(90deg, rgb(31, 67, 78), rgb(80, 60, 117));
+    ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
-.text-div{
+
+.text-div {
     font-size: 30px;
     font-weight: bold;
 }
-.para{
+
+.para {
     font-size: 20px;
 }
-.h1tag{
+
+.h1tag {
     background: -webkit-linear-gradient(#e4f5bd, #9ee9df);
     -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent ; 
-    transition: 10s; 
+    -webkit-text-fill-color: transparent;
+    transition: 10s;
 }
 
-.para{
+.para {
     font-size: 18px;
     margin-top: 15px;
     margin-bottom: 15px;
     color: rgb(255, 255, 255);
     font-weight: lighter;
-    
-}
-.btn{
-    padding: 10px 20px;
-background-color: rgb(255, 60, 60);
-border-radius: 10px 5px;
-color: aliceblue;
-box-shadow: 5px 5px 5px black;
-font-weight: bold;
-cursor: pointer;
-transition: 2s;
 
 }
-.btn:hover{
+
+.btn {
+    padding: 10px 20px;
+    background-color: rgb(255, 60, 60);
+    border-radius: 10px 5px;
+    color: aliceblue;
+    box-shadow: 5px 5px 5px black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 2s;
+
+}
+
+.btn:hover {
     color: black;
 }
-.main-about{
+
+.main-about {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row-reverse;
-    height:70vh;
+    height: 70vh;
     border: none;
     background-color: #c7d2e6;
     padding: 10px;
 
 }
 
-.h1{
+.h1 {
     text-align: center;
     background-color: #c7d2e6;
     padding-top: 20px;
-    font-size: 45px; 
-    
+    font-size: 45px;
+
 }
-.para2{
+
+.para2 {
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 10px;
-    
+
     color: rgb(0, 0, 0);
     font-weight: lighter;
-    
+
 }
-.text-div2{
+
+.text-div2 {
     font-size: 50px;
     font-weight: bold;
     padding-bottom: 40px;
 }
-.h12{
+
+.h12 {
     text-align: center;
     background-color: #2c2c2c;
     padding-top: 20px;
     padding-bottom: 40px;
-    font-size: 45px; 
+    font-size: 45px;
     color: azure;
 }
-.box{
+
+.box {
     width: 230px;
     height: 300px;
     box-shadow: 40px 40px 50px gray;
@@ -147,28 +164,33 @@ transition: 2s;
     transition: 2s;
 }
 
-.icon{
+.icon {
     width: 70px;
     /* background-color: #000000; */
 }
-.boxbtn{
+
+.boxbtn {
     color: rgb(0, 0, 0);
     background-color: rgb(151, 151, 151);
     margin-top: 10px;
     transition: 2s;
     border: none;
-    
+
 }
-.boxbtn:hover{
+
+.boxbtn:hover {
     color: #ffffff;
 }
-.boxtitle{
+
+.boxtitle {
     padding: 10px;
 }
-.boxpara{
+
+.boxpara {
     padding: 10px;
 }
-.service-container{
+
+.service-container {
     display: flex;
     justify-content: space-around;
     padding: 15px;
@@ -177,11 +199,13 @@ transition: 2s;
     border: none;
 
 }
-.box:hover{
+
+.box:hover {
     width: 250px;
     height: 320px;
 }
-.footer-main{
+
+.footer-main {
     display: flex;
     justify-content: space-around;
     background-color: #000000;
@@ -189,25 +213,28 @@ transition: 2s;
     height: 30vh;
     text-align: justify;
     list-style: none;
-    
-    
+
+
 }
 
-.log{
-    padding-top:70px ;
+.log {
+    padding-top: 70px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.use{
+
+.use {
     padding-top: 70px;
     margin-bottom: 10px;
 }
-.links{
+
+.links {
     padding: 10px;
 }
- .foot{
+
+.foot {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
     font-size: 15px;
- }
+}
